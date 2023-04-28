@@ -19,11 +19,26 @@
 
 <main>
 
-<!--
-![Screenshot of Arefem](assets/ss.png)
--->
-<div class="video-container youtube-video">
-<iframe src="https://www.youtube.com/embed/dbZ2ObcZn2U?modestbranding=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="560" height="315" frameborder="0"></iframe>
+<div style="position: relative;">
+
+![resume as a markdown file](assets/images/resume-md.png)
+
+![resume as a word file](assets/images/resume-word.png)
+
+![employers](assets/images/potential-employers.png)
+
+<div class="video-container">
+<video
+    playsinline
+    poster="assets/images/ss.png"
+    id="demo"
+    onclick="this.paused ? playDemo() : pauseDemo()">
+    <source src="assets/video/demo.mp4"></source>
+</video>
+
+<img src="assets/icons/play-large-symbolic.svg">
+</div>
+
 </div>
 
 </main>
@@ -32,9 +47,11 @@
 - ### Organize Files
   ![Organize Symbol](assets/icons/organize.svg)
 
-- ### Share Your Files
-  ![Share Symbol](assets/icons/share.svg)
-
-- ### Merge and Sort
+- ### Manipulate Files
   ![Sort](assets/icons/sort.svg)
+
+- ### Complex Tasks
+  ![Share Symbol](assets/icons/share.svg)
 </footer>
+
+<script src="interactive.js"></script>

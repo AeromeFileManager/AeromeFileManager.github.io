@@ -1,0 +1,35 @@
+Hello, this is a quick demo of the Aerome file manager.
+
+Aerome lets you sort, manage, and manipulate your files much faster with the help of an "A I" assistant.
+
+Instead of explaining, it's easier to show you. Lets dive into a demo.
+
+Here's my pictures folder, which is quite disorganized. My operating system automatically saves all my screenshots in the Pictures folder without any sorting, resulting in a cluttered collection over the years.
+
+Let's move them into a separate folder.
+
+You might think this is slower than simply using copy and paste. However, Aerome excels at handling complex file tasks. For demonstration purposes, let's sort these files into separate folders based on their dates.
+
+As you can see, that was much quicker than copying and pasting individually.
+
+But Aerome does more than just sorting files; it's a personal assistant for editing and manipulating files too. Let's head over to my Documents folder and look at my completely authentic, 100 percent real, resume. We'll add Aerome to my resume.
+
+That was simple enough, but my plain markdown resume won't impress many people. Let's convert it to a Word document.
+
+Much better.
+
+You might have noticed that our assistant is asking us to "review the script" before running an action. That's because it's using Bash, a programming language that, kinda, runs "underneath," both Mac O S and Linux. You should know that Bash is a very old language, and a bunch of super geeks have spent the last 30 years getting it to do just about everything. In a fight between a Chat G P T powered Skynet and an old greybeard that knows the dark magic of Bash, I choose Gandolf the Gray.
+
+But the "A I" is actually excellent at writing Bash, allowing Aerome to automate complex tasks.
+
+Let's try some of that black magic here. I've compiled another list of 100 percent real job leads here, and we're going to have Aerome send my resume to them, and maybe write a personal cover letter for each of them.
+
+Here's where it helps to be an old greybeard in training, I know that we need to convert this spreadsheet into a comma separated value file to help the "A I" parse it more easily. Then, we can simply ask it to read the values, generate personalized notes for the email body, and send them.
+
+Aerome successfully sent those emails, though they should bounce back shortly since the email addresses were fictional. Nonetheless, I hope this illustrates the flexibility and power of Aerome's file management approach.
+
+In the near future, I hope to allow people to share actions with one another, and hide this Bash script stuff as an implementation detail, something only advanced users will use. For now though, it should be noted that you should be careful with Aerome, it's a very "beta" quality product, and the "A I" can get confused and do nasty things to your files, so maybe back up your stuff if you don't know Bash.
+
+Oh that's weird, why'd that email bounce later than the others.
+
+Anyway, you can find the binaries for both Mac O S and Linux on the Arome's website. And for now, remember to be safe, audit those scripts or back up your data.

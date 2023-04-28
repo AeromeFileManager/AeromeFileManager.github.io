@@ -16,12 +16,23 @@ Aerome
 </ul>
 </header>
 <main>
-<!--
-![Screenshot of Arefem](assets/ss.png)
--->
-<div class="video-container youtube-video">
-<iframe src="https://www.youtube.com/embed/dbZ2ObcZn2U?modestbranding=1" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen width="560" height="315" frameborder="0">
-</iframe>
+<div style="position: relative;">
+<figure>
+<img src="assets/images/resume-md.png" alt="" /><figcaption>resume as a markdown file</figcaption>
+</figure>
+<figure>
+<img src="assets/images/resume-word.png" alt="" /><figcaption>resume as a word file</figcaption>
+</figure>
+<figure>
+<img src="assets/images/potential-employers.png" alt="" /><figcaption>employers</figcaption>
+</figure>
+<div class="video-container">
+<video playsinline poster="assets/images/ss.png" id="demo" onclick="this.paused ? playDemo() : pauseDemo()">
+<source src="assets/video/demo.mp4">
+</source>
+</video>
+<p><img src="assets/icons/play-large-symbolic.svg"></p>
+</div>
 </div>
 </main>
 <footer>
@@ -30,13 +41,14 @@ Aerome
 <figure>
 <img src="assets/icons/organize.svg" alt="" /><figcaption>Organize Symbol</figcaption>
 </figure></li>
-<li><h3 id="share-your-files">Share Your Files</h3>
-<figure>
-<img src="assets/icons/share.svg" alt="" /><figcaption>Share Symbol</figcaption>
-</figure></li>
-<li><h3 id="merge-and-sort">Merge and Sort</h3>
+<li><h3 id="manipulate-files">Manipulate Files</h3>
 <figure>
 <img src="assets/icons/sort.svg" alt="" /><figcaption>Sort</figcaption>
 </figure></li>
+<li><h3 id="complex-tasks">Complex Tasks</h3>
+<figure>
+<img src="assets/icons/share.svg" alt="" /><figcaption>Share Symbol</figcaption>
+</figure></li>
 </ul>
 </footer>
+<script src="interactive.js"></script>

@@ -1,0 +1,35 @@
+Hello, and welcome to a brief demonstration of the Aerome file manager.
+
+Aerome enables you to sort, manage, and manipulate your files more efficiently with the help of an AI assistant.
+
+Instead of explaining, it's easier to show you. Let's dive into a demo.
+
+Here's my pictures folder, which is quite disorganized. My operating system automatically saves all my screenshots in the Pictures folder without any sorting, resulting in a cluttered collection over the years.
+
+Let's move them into a separate folder.
+
+You might think this is slower than simply using copy and paste. However, Aerome excels at handling complex file tasks. For demonstration purposes, let's sort these files into separate folders based on their dates.
+
+As you can see, that was much quicker than copying and pasting individually.
+
+But Aerome does more than just sorting files; it's a personal assistant for editing and manipulating files too. Let's head over to my Documents folder and look at my completely authentic resume. We'll add Aerome to my resume.
+
+That was simple enough, but my plain markdown resume won't impress many people. Let's convert it to a Word document.
+
+Much better.
+
+You might have noticed that our assistant asks us to "review the script" before running an action. This is because it uses Bash, a programming language that operates "underneath" both macOS and Linux. Bash is a very old language, and many experts have spent decades refining its capabilities. If there were a contest between ChatGPT-driven Skynet and an old-school Bash master, I'd choose Gandalf the Grey.
+
+But the AI is actually excellent at writing Bash, allowing Aerome to automate complex tasks.
+
+Let's try some advanced functions. I've compiled a list of entirely genuine job leads, and we'll have Aerome send my resume to them, along with personalized cover letters for each recipient.
+
+As a proficient Bash user, I know we need to convert this spreadsheet into a comma-separated value file to help the AI parse it more easily. Then, we can simply ask it to read the values, generate personalized notes for the email body, and send them.
+
+Aerome successfully sent those emails, though they should bounce back shortly since the email addresses were fictional. Nonetheless, I hope this illustrates the flexibility and power of Aerome's file management approach.
+
+In the future, I plan to enable users to share actions with each other and hide Bash script details as an implementation aspect, intended only for advanced users. For now, please be cautious with Aerome as it's still in "beta" quality, and the AI may get confused and mishandle your files. If you're not familiar with Bash, consider backing up your data.
+
+Oddly, one of those emails bounced back later than the others.
+
+You can find the binaries for both macOS and Linux on Aerome's website. For now, remember to stay safe, review the scripts, or back up your data.
