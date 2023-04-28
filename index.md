@@ -33,7 +33,7 @@
     poster="assets/images/ss.png"
     id="demo"
     onclick="this.paused ? playDemo() : pauseDemo()">
-    <source src="assets/video/demo.mp4"></source>
+    <source src="https://media.githubusercontent.com/media/AeromeFileManager/AeromeFileManager.github.io/master/assets/video/demo.mp4"></source>
 </video>
 
 <img src="assets/icons/play-large-symbolic.svg">
