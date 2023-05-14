@@ -1,3 +1,4 @@
+<!doctype html>
 <head>
     <link rel="preload" href="styles.css" as="style">
     <link rel="stylesheet" href="styles.css">
