@@ -17,7 +17,7 @@
 
 </header>
 
-<main>
+<main class="demo-vid">
 
 <div style="position: relative;">
 
