@@ -1,5 +1,5 @@
 watch -n 1 \
-    "if [ -e index.md ]; then pandoc index.md -o index.html; fi; \
+    "if [ -e index.md ]; then pandoc index.md --metadata 'title="Aerome"' --template=template.html '-Vtitle="Aerome"' -V class="demo-vid" -o index.html; fi; \
      if [ -e tos.md ]; then pandoc tos.md --metadata 'title="Terms of Service"' --template=template.html '-Vtitle="Terms of Service"' -V class="tos" -o tos.html; fi; \
      if [ -e privacy_policy.md ]; then pandoc privacy_policy.md -o privacy_policy.html; fi; \
      if [ -e blog.md ]; then pandoc blog.md --metadata title="Blog" --template=template.html -V title="Blog" -V class="blog" -o blog.html; fi"

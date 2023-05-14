@@ -17,6 +17,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    height: 100%;
 
     --color-dim-gray: #776d69ff;
     --color-antique-white: #fef0ddff;
@@ -307,6 +308,10 @@ header ul li:last-child a {
 
 figcaption {
     display: none;
+}
+
+main:not(.demo-vid) ~ footer {
+    display: none !important;
 }
 
 footer {
