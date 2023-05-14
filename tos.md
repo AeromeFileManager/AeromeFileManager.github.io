@@ -56,7 +56,7 @@ We reserve the right to modify or update these Terms at any time. Your continued
 
 11. Contact
 
-If you have any questions about these Terms or your use of Aerome, please contact us at <inqueries@aerome.net>.
+If you have any questions about these Terms or your use of Aerome, please contact us at <inquiries@aerome.net>.
 
 12. Entire Agreement
 
