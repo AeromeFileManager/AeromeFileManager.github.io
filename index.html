@@ -19,7 +19,7 @@
             </ul>
         </header>
 
-        <main class="demo-vid">
+        <main class="demo-vid" onscroll="this.scrollTop > 10 ? this.previousElementSibling.classList.add('scrolling') : this.previousElementSibling.classList.remove('scrolling')">
             <script src="interactive.js" defer></script>
             <div style="position: relative;">
             <figure>

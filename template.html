@@ -19,7 +19,7 @@
             </ul>
         </header>
 
-        <main class="$class$">
+        <main class="$class$" onscroll="this.scrollTop > 10 ? this.previousElementSibling.classList.add('scrolling') : this.previousElementSibling.classList.remove('scrolling')">
             $body$
         </main>
 

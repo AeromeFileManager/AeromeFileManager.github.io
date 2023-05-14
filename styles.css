@@ -220,6 +220,16 @@ header {
     grid-row: 2;
 }
 
+header > ul {
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease-in-out, box-shadow 0.5s ease-in-out;
+}
+
+header.scrolling > ul {
+    border-bottom: 1px solid var(--color-raisin-black);
+    box-shadow: -2px 12px 28px -17px var(--color-thistle);
+}
+
 header h1 {
     font-family: 'Oldenburg', serif;
     font-size: 28px;
@@ -248,7 +258,7 @@ header h2 {
 header ul {
     position: fixed;
     inset: 0;
-    top: 40px;
+    top: 34px;
     bottom: unset;
     height: 50px;
     display: flex;
@@ -387,16 +397,15 @@ footer figure {
     }
 }
 
-main:is(.blog, .tos) {
+main:is(.blog, .tos, .pp) {
     grid-row: 2 / 4;
-    margin-top: 8px;
     overflow-y: scroll;
     padding: 30px;
     padding-top: 70px;
     line-height: 1.4;
 }
 
-main:is(.blog, .tos) article {
+main:is(.blog, .tos, .pp) article {
     max-width: 620px;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -409,10 +418,10 @@ main:is(.blog, .tos) article {
     border-radius: 10px;
 }
 
-main:is(.blog, .tos) article h1 {
+main:is(.blog, .tos, .pp) article h1 {
     font-size: 24px;
 }
 
-main.tos a {
+main:is(.tos, .pp) a {
     color: var(--color-thistle);
 }

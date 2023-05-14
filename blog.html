@@ -19,7 +19,7 @@
             </ul>
         </header>
 
-        <main class="blog">
+        <main class="blog" onscroll="this.scrollTop > 10 ? this.previousElementSibling.classList.add('scrolling') : this.previousElementSibling.classList.remove('scrolling')">
             <article>
             <h1 id="aerome-the-ai-powered-file-manager">Aerome: The AI-Powered File Manager</h1>
             <p><time datetime="2023-05-13">May 13, 2023</time></p>
