@@ -1,3 +1,4 @@
+<script src="interactive.js" defer></script>
 
 <div style="position: relative;">
 
@@ -9,6 +10,7 @@
 
 <div class="video-container">
 <video
+    crossorigin="anonymous"
     playsinline
     poster="assets/images/ss.png"
     id="demo"
@@ -21,4 +23,3 @@
 
 </div>
 
-<script src="interactive.js"></script>
