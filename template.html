@@ -14,8 +14,8 @@
             <ul>
                 <li><a href="index.html">About</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="https://github.com/PromptProgrammingLanguage/aerome">Source</a></li>
-                <li><a href="https://github.com/PromptProgrammingLanguage/aerome/releases/mac-os.zip">Download</a></li>
+                <li><a href="https://github.com/AeromeFileManager/aerome">Source</a></li>
+                <li><a id="download">Download</a></li>
             </ul>
         </header>
 
@@ -41,5 +41,46 @@
         </figure></li>
         </ul>
         </footer>
+        <script>
+          switch (getOS()) {
+              /*
+              case 'Mac OS': {
+                  download.href = 'https://github.com/PromptProgrammingLanguage/prompt/releases/download/v0.2.0/prompt-macos.tar.gz';
+                  break;
+              }
+              */
+              case 'Linux': {
+                  download.href = 'https://github.com/AeromeFileManager/aerome/releases/download/v0.5/aerome_generic_linux.zip';
+                  break;
+              }
+              default: {
+                  download.style.display = 'none';
+                  break;
+              }
+          }
+
+          function getOS() {
+            var userAgent = window.navigator.userAgent,
+                platform = window.navigator?.userAgentData?.platform || window.navigator.platform,
+                macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+                windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+                iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+                os = null;
+
+            if (macosPlatforms.indexOf(platform) !== -1) {
+              os = 'Mac OS';
+            } else if (iosPlatforms.indexOf(platform) !== -1) {
+              os = 'iOS';
+            } else if (windowsPlatforms.indexOf(platform) !== -1) {
+              os = 'Windows';
+            } else if (/Android/.test(userAgent)) {
+              os = 'Android';
+            } else if (/Linux/.test(platform)) {
+              os = 'Linux';
+            }
+
+            return os;
+          }
+        </script>
     </body>
 </html>
